@@ -1,0 +1,43 @@
+
+// Whos Willow Section
+.sectionOne {
+    background-color: rgb(246, 246, 246, 0.7);
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 90px 0 90px 0;
+}
+
+
+// Favourite Things Section
+
+.favouriteThings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        box-shadow: -800px 15px $greenGrey, -400px 15px $greenGrey, 15px 15px $greenGrey;
+        display: inline-block;
+        max-width: 500px;
+    }
+}
+.bucketList {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    img {
+        box-shadow: 800px 20px #345231, 400px 20px #345231, 30px 20px #345231;
+        display: inline-block;
+        max-width: 500px;
+    }
+}
+.textContainer {
+    text-align: right;
+}

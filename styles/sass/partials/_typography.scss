@@ -15,12 +15,16 @@ h1,h2 {
 h3,h4 {
     color: $black;
 }
-h1, h3 { 
+h1 { 
     font-size: 2.2rem;
     text-transform: uppercase;
 }
 h2 {
-    font-size: 6rem;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 2rem;
     text-transform: uppercase;
 }
 ul,
@@ -36,9 +40,16 @@ ul {
 a {
     text-decoration: none;
     color: $black;
-    font-family: $bodyFont;
+    font-family: $primaryFont;
     font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 .mainContent a {
     color: $white;
+}
+p {
+    font-family: $bodyFont;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
 }

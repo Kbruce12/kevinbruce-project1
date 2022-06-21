@@ -1,5 +1,6 @@
 .mainHeader {
     background-color: $pine;
+    max-height: 625px;
 }
 
 .mainContent {
@@ -25,22 +26,21 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 40px;
 }
 .title {
     position: relative;
-}
-
-h2::before {
-    content: url(../assets/circle-text.png);
-    position: absolute;
-    left: -38px;
-    top: -19px;
-}
-.headerImgContainer {
-    box-shadow: 12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246);
+    display: flex;
     img {
+        width: 115px;
+        height: 135px;
+        position: absolute;
+        left: -45px;
+    }
+}
+.headerImgContainer img {
+        box-shadow: 12px 12px 1px 4px rgb(246 246 246);
         max-width: 400px;
         max-height: 600px;
-        overflow: visible;
-    }
+        display: inline;
 }
