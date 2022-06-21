@@ -1,0 +1,44 @@
+html {
+    font-size: 125%;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin: 0;
+    font-family: $primaryFont;
+}
+h1,h2 {
+    color: $white;
+}
+h3,h4 {
+    color: $black;
+}
+h1, h3 { 
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+ul,
+li,
+a,
+input {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: $black;
+    font-family: $bodyFont;
+    font-size: 0.8rem;
+}
+.mainContent a {
+    color: $white;
+}

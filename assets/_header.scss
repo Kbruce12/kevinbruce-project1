@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: $white;
 }
 .title {
     position: relative;
@@ -37,10 +38,9 @@ h2::before {
     top: -19px;
 }
 .headerImgContainer {
-    box-shadow: 12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246) ,12px 12px 3px 2px rgb(246 246 246);
+    box-shadow: 12px 12px 3px 2px rgb(246 246 246);
     img {
         max-width: 400px;
         max-height: 600px;
-        overflow: visible;
     }
 }

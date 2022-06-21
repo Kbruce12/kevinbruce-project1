@@ -226,6 +226,60 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 125%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: "Abril Fatface", cursive;
+}
+
+h1, h2 {
+  color: #f6f6f6;
+}
+
+h3, h4 {
+  color: #1f1f1f;
+}
+
+h1, h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+ul,
+li,
+a,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+
+.mainContent a {
+  color: #f6f6f6;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 85%;
@@ -252,10 +306,56 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
 }
-
-ul {
+.mainContent ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mainContent a {
+  margin: 0 20px 0 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.mainContent a:hover, .mainContent a:focus {
+  color: #e4a436;
+}
+
+.musings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.title {
+  position: relative;
+}
+
+h2::before {
+  content: url(../assets/circle-text.png);
+  position: absolute;
+  left: -38px;
+  top: -19px;
+}
+
+.headerImgContainer {
+  -webkit-box-shadow: 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246);
+          box-shadow: 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246), 12px 12px 3px 2px rgb(246, 246, 246);
+}
+.headerImgContainer img {
+  max-width: 400px;
+  max-height: 600px;
+  overflow: visible;
 }
