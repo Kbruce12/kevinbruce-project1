@@ -245,6 +245,8 @@ h1, h2 {
 
 h3, h4 {
   color: #1f1f1f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -258,8 +260,11 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
-  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 ul,
@@ -410,15 +415,16 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 .favouriteThings img {
   -webkit-box-shadow: -800px 15px #709b6b, -400px 15px #709b6b, 15px 15px #709b6b;
           box-shadow: -800px 15px #709b6b, -400px 15px #709b6b, 15px 15px #709b6b;
   display: inline-block;
-  max-width: 500px;
+  max-width: 100%;
+  margin-top: -30px;
 }
 
 .bucketList {
@@ -432,18 +438,26 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .bucketList img {
   -webkit-box-shadow: 800px 20px #345231, 400px 20px #345231, 30px 20px #345231;
           box-shadow: 800px 20px #345231, 400px 20px #345231, 30px 20px #345231;
   display: inline-block;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .textContainer {
+  width: 50%;
+  margin-left: 80px;
+}
+
+imgContainer {
+  width: 50%;
+}
+
+.textContainerTwo {
+  width: 50%;
   text-align: right;
+  margin-right: 80px;
 }

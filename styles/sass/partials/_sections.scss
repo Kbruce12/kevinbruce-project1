@@ -19,25 +19,35 @@
 .favouriteThings {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     img {
         box-shadow: -800px 15px $greenGrey, -400px 15px $greenGrey, 15px 15px $greenGrey;
         display: inline-block;
-        max-width: 500px;
+        max-width: 100%;
+        margin-top: -30px;
     }
 }
 .bucketList {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+    margin-top: 70px;
     img {
         box-shadow: 800px 20px #345231, 400px 20px #345231, 30px 20px #345231;
         display: inline-block;
-        max-width: 500px;
-    }
+        max-width: 100%;
+        }
 }
+
 .textContainer {
+    width: 50%;
+    margin-left: 80px;
+}
+imgContainer {
+    width: 50%;
+}
+.textContainerTwo {
+    width: 50%;
     text-align: right;
+    margin-right: 80px;
 }
