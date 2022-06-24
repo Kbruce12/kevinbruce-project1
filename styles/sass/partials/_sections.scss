@@ -51,3 +51,37 @@ imgContainer {
     text-align: right;
     margin-right: 80px;
 }
+
+.journey {
+    background-color: rgb(246, 246, 246, 0.7);
+    height: 395px;
+    .wrapper {
+        display: flex;
+        align-items:  center;
+        justify-content: center;
+    }
+}
+
+.imgContainerTwo {
+    padding: 50px;
+    img {
+        box-shadow: 12px 12px 1px 1px $greenGrey, 12px 12px 1px 1px $greenGrey, 12px 12px 1px 1px $greenGrey;
+    }
+}
+.banner {
+    background-image: url(../assets/home-image-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+
+    .imgContainerThree {
+        width: calc(100% / 3);
+        align-items: center;
+    }
+ 
+}
