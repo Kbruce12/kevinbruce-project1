@@ -1,0 +1,29 @@
+footer {
+    background-color: rgb(246, 246, 246, 0.7);
+    .wrapper {
+        padding-top: 60px;
+    }
+} 
+.footer {
+    display: flex;
+    .mainContact {
+        width: calc(100% / 2);
+        padding: 30px; 
+    }
+}
+.footerTitle {
+    display: flex;
+    align-items: center;
+    position: relative;
+    i {
+        background-color: $accent;
+        border-radius: 50%;
+        padding: 12px;
+        margin-right: 5px;
+        position: absolute;
+        top: -4px;
+        left: -55px;
+    }
+}
+
+

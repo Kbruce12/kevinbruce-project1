@@ -75,13 +75,17 @@ imgContainer {
     background-position: center;
     height: 400px;
 }
-.gallery {
+.imgGallery {
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0 40px 0;
     .imgContainerThree {
-        width: calc(100% / 3);
-        align-items: center;
+        img {
+            width: 350px;
+            height: 350px;
+            padding: 15px;
+        }
     }
- 
 }
+
