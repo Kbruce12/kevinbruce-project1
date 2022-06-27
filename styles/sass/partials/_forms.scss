@@ -1,0 +1,27 @@
+.connect {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    input {
+        padding: 15px;
+        margin-top: 20px;
+        border: none;
+    }
+}
+.connect input {
+    width: 371px;
+}
+.connect textarea,
+button {
+    width: 746px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+    border: none;
+}
+.comments textarea {
+    padding: 15px;
+}
+
+
