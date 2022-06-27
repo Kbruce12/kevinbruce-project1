@@ -28,10 +28,17 @@ footer {
 .blogFooter {
     background-color: $black;
     text-align: center;
+    position: sticky;
     p {
         color: $white;
         margin: 0;
     }
+}
+
+.contactFooter {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 

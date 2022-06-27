@@ -317,6 +317,7 @@ img {
   font-family: "Abril Fatface", cursive;
   text-transform: uppercase;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 
 .mainHeader {
@@ -397,6 +398,18 @@ img {
   height: 450px;
 }
 .blog h3 {
+  color: #f6f6f6;
+  font-size: 3.5rem;
+  margin-top: 309px;
+}
+
+.contact {
+  background-image: url(../assets/contact-image-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+.contact h3 {
   color: #f6f6f6;
   font-size: 3.5rem;
   margin-top: 309px;
@@ -623,6 +636,40 @@ imgContainer {
   margin: 0;
 }
 
+.contactMe .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.contactInfo {
+  background-color: white;
+  max-height: 228px;
+  padding: 30px;
+}
+
+.contactIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactIcons i {
+  color: #345231;
+  margin-right: 30px;
+}
+
+.contactText {
+  margin-top: 20px;
+}
+.contactText h4, .contactText p {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+}
+
 footer {
   background-color: rgba(246, 246, 246, 0.7);
 }
@@ -662,10 +709,17 @@ footer .wrapper {
 .blogFooter {
   background-color: #1f1f1f;
   text-align: center;
+  position: sticky;
 }
 .blogFooter p {
   color: #f6f6f6;
   margin: 0;
+}
+
+.contactFooter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .connect {
@@ -683,9 +737,11 @@ footer .wrapper {
   padding-bottom: 50px;
 }
 .connect input {
-  padding: 15px;
+  padding: 20px 15px 20px 15px;
   margin-top: 20px;
   border: none;
+  opacity: 1;
+  font-size: 0.8rem;
 }
 
 .connect input {
@@ -701,5 +757,10 @@ button {
 }
 
 .comments textarea {
-  padding: 15px;
+  padding: 25px 15px 25px 15px;
+  font-size: 0.8rem;
+}
+
+.contactMe input {
+  margin-top: 0;
 }

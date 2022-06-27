@@ -5,9 +5,11 @@
     align-items: flex-end;
     padding-bottom: 50px;
     input {
-        padding: 15px;
+        padding: 20px 15px 20px 15px;
         margin-top: 20px;
         border: none;
+        opacity: 1;
+        font-size: 0.8rem;
     }
 }
 .connect input {
@@ -21,7 +23,12 @@ button {
     border: none;
 }
 .comments textarea {
-    padding: 15px;
+    padding: 25px 15px 25px 15px;
+    font-size: 0.8rem;
+}
+
+.contactMe input {
+    margin-top: 0;
 }
 
 

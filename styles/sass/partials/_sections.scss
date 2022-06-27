@@ -92,7 +92,6 @@ imgContainer {
 .news {
     background-color: rgba(234, 230, 230, 0.7);
 }
-
 .aboutWillow {
     padding-top: 80px;
     display: grid;
@@ -174,3 +173,37 @@ imgContainer {
         margin: 0;
     }
 }
+
+// Contact Section
+// .contactMe {
+//     background-color: rgba(234, 230, 230, 0.7);
+// }
+
+.contactMe  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.contactInfo {
+    background-color: white;
+    max-height: 228px;
+    padding: 30px;
+}
+.contactIcons {
+    display: flex;
+    i {
+        color:#345231;
+        margin-right: 30px;
+    }
+}
+.contactText {
+    margin-top: 20px; 
+            h4, p {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    }
+}
+
+
+

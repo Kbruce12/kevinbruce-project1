@@ -46,10 +46,24 @@
         display: inline;
 }
 
-// Contact Header
+// Blog Header
 
 .blog {
     background-image: url(../assets/blog-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    h3 {
+        color: $white;
+        font-size: 3.5rem;
+        margin-top: 309px;
+    }
+}
+
+// Contact Header
+
+.contact {
+    background-image: url(../assets/contact-image-1.jpg);
     background-position: center;
     background-size: cover;
     height: 450px;
