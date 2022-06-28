@@ -1,0 +1,63 @@
+@media (max-width:1225px) {
+    .title h2 {
+        font-size: 6rem;
+    }
+    .headerImgContainer img {
+        max-width: 350px;
+        max-height: 450px;
+    }
+    .imgGallery .imgContainerThree img {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+    }
+    .journey {
+        height: 600px;
+    }
+    .imgGallery {
+        justify-content: center;
+    }
+    .connect textarea, button {
+        width: 474px;
+
+    }
+    .connect input {
+        width: 235px;
+    }
+}
+
+@media (max-width:950px) {
+.title {
+    display: none;
+}
+.favouriteThings, .bucketList {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.textContainer, .textContainerTwo {
+    margin: 50px 0 50px 0;
+    width: 100%;
+}
+.journey .wrapper {
+    flex-wrap: wrap;
+}
+.journey {
+    height: 800px;
+}
+}
+ @media (max-width: 550px) {
+    .journey {
+        height: 920px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .mainContact {
+        width: 100%;
+        padding: 30px;
+    }
+    .mainContent li {
+        display: none;
+    }
+ }

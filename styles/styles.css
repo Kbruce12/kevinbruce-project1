@@ -449,8 +449,8 @@ img {
           align-items: end;
 }
 .favouriteThings img {
-  -webkit-box-shadow: -800px 15px #709b6b, -400px 15px #709b6b, 15px 15px #709b6b;
-          box-shadow: -800px 15px #709b6b, -400px 15px #709b6b, 15px 15px #709b6b;
+  -webkit-box-shadow: -800px 15px #709b6b, -400px 15px #709b6b, -200px 15px #709b6b, 15px 15px #709b6b;
+          box-shadow: -800px 15px #709b6b, -400px 15px #709b6b, -200px 15px #709b6b, 15px 15px #709b6b;
   display: inline-block;
   max-width: 100%;
   margin-top: -30px;
@@ -470,8 +470,8 @@ img {
   margin-top: 70px;
 }
 .bucketList img {
-  -webkit-box-shadow: 800px 20px #345231, 400px 20px #345231, 30px 20px #345231;
-          box-shadow: 800px 20px #345231, 400px 20px #345231, 30px 20px #345231;
+  -webkit-box-shadow: 800px 20px #345231, 400px 20px #345231, 200px 20px #345231, 30px 20px #345231;
+          box-shadow: 800px 20px #345231, 400px 20px #345231, 200px 20px #345231, 30px 20px #345231;
   display: inline-block;
   max-width: 100%;
 }
@@ -763,4 +763,90 @@ button {
 
 .contactMe input {
   margin-top: 0;
+}
+
+@media (max-width: 1225px) {
+  .title h2 {
+    font-size: 6rem;
+  }
+
+  .headerImgContainer img {
+    max-width: 350px;
+    max-height: 450px;
+  }
+
+  .imgGallery .imgContainerThree img {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+  }
+
+  .journey {
+    height: 600px;
+  }
+
+  .imgGallery {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .connect textarea, button {
+    width: 474px;
+  }
+
+  .connect input {
+    width: 235px;
+  }
+}
+@media (max-width: 950px) {
+  .title {
+    display: none;
+  }
+
+  .favouriteThings, .bucketList {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .textContainer, .textContainerTwo {
+    margin: 50px 0 50px 0;
+    width: 100%;
+  }
+
+  .journey .wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .journey {
+    height: 800px;
+  }
+}
+@media (max-width: 550px) {
+  .journey {
+    height: 920px;
+  }
+
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer .mainContact {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .mainContent li {
+    display: none;
+  }
 }
