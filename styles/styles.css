@@ -311,6 +311,7 @@ img {
 }
 
 .button {
+  border: 2px solid #e4a436;
   background-color: #e4a436;
   padding: 10px 30px 10px 30px;
   display: inline-block;
@@ -318,6 +319,28 @@ img {
   text-transform: uppercase;
   font-size: 0.8rem;
   cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #f6f6f6;
+  border: 2px solid #e4a436;
+}
+
+button:focus {
+  background-color: #f6f6f6;
+  border: 2px solid #e4a436;
+}
+
+.button:hover {
+  background-color: #f6f6f6;
+  border: 2px solid #e4a436;
+}
+
+.button:focus {
+  background-color: #f6f6f6;
+  border: 2px solid #e4a436;
 }
 
 .mainHeader {
@@ -413,6 +436,12 @@ img {
   color: #f6f6f6;
   font-size: 3.5rem;
   margin-top: 309px;
+}
+
+.mainContent i {
+  position: absolute;
+  top: -1000px;
+  font-size: 2rem;
 }
 
 .sectionOne {
@@ -704,6 +733,12 @@ footer .wrapper {
   position: absolute;
   top: -4px;
   left: -55px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footerTitle i:hover, .footerTitle i:focus {
+  background-color: #f6f6f6;
+  border: 1px solid #e4a436;
 }
 
 .blogFooter {
@@ -745,12 +780,12 @@ footer .wrapper {
 }
 
 .connect input {
-  width: 371px;
+  width: 475px;
 }
 
 .connect textarea,
 button {
-  width: 746px;
+  width: 954px;
   margin-top: 20px;
   padding: 10px 0 10px 0;
   border: none;
@@ -765,6 +800,16 @@ button {
   margin-top: 0;
 }
 
+@media (max-width: 1470px) {
+  .connect input {
+    width: 371px;
+  }
+
+  .connect textarea,
+button {
+    width: 746px;
+  }
+}
 @media (max-width: 1225px) {
   .title h2 {
     font-size: 6rem;
@@ -825,6 +870,46 @@ button {
   .journey {
     height: 800px;
   }
+
+  .aboutWillow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .gridOne {
+    width: 300px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .contactInputs input {
+    width: 387px;
+  }
+
+  .contactMessage textarea, button {
+    width: 780px;
+  }
+
+  .contactMe .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
 }
 @media (max-width: 550px) {
   .journey {
@@ -848,5 +933,52 @@ button {
 
   .mainContent li {
     display: none;
+  }
+
+  .connect textarea, button {
+    width: 328px;
+  }
+
+  .gridOne {
+    width: 100%;
+  }
+
+  .gridTwo {
+    padding: 48px;
+  }
+
+  .gridFive, .gridFour {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .blog h3 {
+    font-size: 2rem;
+    margin-top: 337px;
+  }
+
+  .connect input {
+    width: 328px;
+  }
+
+  .mainContent i {
+    top: 18px;
+  }
+
+  .contact h3 {
+    font-size: 2.2rem;
+    margin-top: 333px;
+  }
+
+  .contactInputs input {
+    margin-top: 20px;
+    width: 328px;
+  }
+
+  .contactMessage textarea, button {
+    width: 328px;
   }
 }

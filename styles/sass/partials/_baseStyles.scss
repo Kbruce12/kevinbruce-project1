@@ -10,6 +10,7 @@ img {
     padding: 0;
 }
 .button {
+    border: 2px solid $accent;
     background-color: $accent;
     padding: 10px 30px 10px 30px;
     display: inline-block;
@@ -17,4 +18,23 @@ img {
     text-transform: uppercase;
     font-size: 0.8rem;
     cursor: pointer;
+    transition: 0.3s;
 }
+button:hover {
+    background-color: $white;
+    border: 2px solid $accent;
+}
+button:focus {
+    background-color: $white;
+    border: 2px solid $accent;
+}
+.button:hover {
+    background-color: $white;
+    border: 2px solid $accent;
+}
+.button:focus {
+    background-color: $white;
+    border: 2px solid $accent;
+}
+
+  

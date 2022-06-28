@@ -23,6 +23,11 @@ footer {
         position: absolute;
         top: -4px;
         left: -55px;
+        transition: 0.3s;
+        &:hover, &:focus{
+            background-color: $white;
+            border: 1px solid $accent;
+        }
     }
 }
 .blogFooter {
