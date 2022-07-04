@@ -58,14 +58,23 @@ imgContainer {
     .wrapper {
         display: flex;
         align-items:  center;
-        justify-content: center;
+        justify-content: space-between;
     }
+}
+.textContainerThree {
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 150px;
 }
 
 .imgContainerTwo {
     padding: 50px;
+    height: 200px;
+    width: 200px;
     img {
         box-shadow: 12px 12px 1px 1px $greenGrey, 12px 12px 1px 1px $greenGrey, 12px 12px 1px 1px $greenGrey;
+        height: 200px;
+        width: 200px;
     }
 }
 .banner {

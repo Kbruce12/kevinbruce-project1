@@ -531,17 +531,27 @@ imgContainer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.textContainerThree {
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 150px;
 }
 
 .imgContainerTwo {
   padding: 50px;
+  height: 200px;
+  width: 200px;
 }
 .imgContainerTwo img {
   -webkit-box-shadow: 12px 12px 1px 1px #709b6b, 12px 12px 1px 1px #709b6b, 12px 12px 1px 1px #709b6b;
           box-shadow: 12px 12px 1px 1px #709b6b, 12px 12px 1px 1px #709b6b, 12px 12px 1px 1px #709b6b;
+  height: 200px;
+  width: 200px;
 }
 
 .banner {
@@ -909,6 +919,10 @@ button {
     -ms-flex-line-pack: center;
         align-content: center;
   }
+
+  .textContainerThree {
+    margin-left: 0;
+  }
 }
 @media (max-width: 550px) {
   .journey {
@@ -932,6 +946,12 @@ button {
 
   .mainContent li {
     display: none;
+  }
+
+  .mainContent nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .connect textarea, button {

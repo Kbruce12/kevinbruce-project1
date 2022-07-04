@@ -76,6 +76,9 @@
     justify-content: center;
     align-content: center;
 }
+.textContainerThree{
+    margin-left: 0;
+}
 }
 
 
@@ -93,6 +96,9 @@
     }
     .mainContent li {
         display: none;
+    }
+    .mainContent nav {
+        justify-content: space-between;
     }
     .connect textarea, button {
         width: 328px;
