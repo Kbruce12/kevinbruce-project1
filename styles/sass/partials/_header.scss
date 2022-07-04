@@ -18,10 +18,12 @@
         transition: 0.3s;
         text-transform: uppercase;
         font-weight: bold;
+        font-family: $bodyFont;
         &:hover, &:focus {
             color: $accent;
         }
     }
+
 }
 .musings {
     display: flex;

@@ -375,6 +375,7 @@ button:focus {
   transition: 0.3s;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
 .mainContent a:hover, .mainContent a:focus {
   color: #e4a436;
